@@ -7,3 +7,5 @@ Website link: https://lina492375qw1188.github.io/
 `about.md` - About page
 
 `blog.html` - Blog page
+
+Somehow I need to use styles.scss instead of styles.css in header.
