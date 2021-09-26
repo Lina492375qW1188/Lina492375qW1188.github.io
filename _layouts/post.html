@@ -1,3 +1,9 @@
+<!--post.html-->
+
+---
+layout: default
+---
+
 {% include navbar.html %}
 
 {% if page.title%}
@@ -5,5 +11,9 @@
 {% else %}
 	<h1>Untitled post</h1>
 {% endif %}
+
 {{ page.date | date: "%b %d, %Y" }}
+
 {{ content }}
+
+{% include footer.html %}
