@@ -12,7 +12,7 @@ github_username:  Lina492375qW1188
 
 # # Build settings
 markdown: kramdown
-# theme: minima
+theme: cayman
 plugins:
   - jekyll-feed
 
