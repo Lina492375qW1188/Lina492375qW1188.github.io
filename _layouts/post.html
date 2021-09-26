@@ -4,10 +4,6 @@
 layout: default
 ---
 
-{% if page.top_img %}
-    <img src="{{page.top_img}}">
-{% endif %}
-
 {% include navbar.html %}
 
 {% if page.title%}
@@ -17,6 +13,12 @@ layout: default
 {% endif %}
 
 {{ page.date | date: "%b %d, %Y" }}
+
+
+{% if page.top_img %}
+    <img src="{{page.top_img}}">
+{% endif %}
+
 
 {{ content }}
 
