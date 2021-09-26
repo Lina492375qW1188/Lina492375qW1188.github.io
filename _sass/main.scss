@@ -2,23 +2,23 @@
   color: green;
 }
 
-body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 1.125rem;
-  color: {{ site.text-col | default: "#404040" }};
-  position: relative;
-  background-color: {{ site.page-col | default: "#FFFFFF" }};
-  {% if site.page-img %}
-  background-image: url({{ site.page-img | relative_url }});
-  background-attachment: fixed;
-  {% endif %}
-}
-
 // body {
-//   background-color: rgb(20, 20, 20);
-//   color: #fff;
+//   font-family: 'Lora', 'Times New Roman', serif;
+//   font-size: 1.125rem;
+//   color: {{ site.text-col | default: "#404040" }};
+//   position: relative;
+//   background-color: {{ site.page-col | default: "#FFFFFF" }};
+//   {% if site.page-img %}
+//   background-image: url({{ site.page-img | relative_url }});
+//   background-attachment: fixed;
+//   {% endif %}
 // }
-a{
-    color: rgb(2, 170, 38);
-    text-decoration: none;
-}
+
+// // body {
+// //   background-color: rgb(20, 20, 20);
+// //   color: #fff;
+// // }
+// a{
+//     color: rgb(2, 170, 38);
+//     text-decoration: none;
+// }
