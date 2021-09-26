@@ -4,6 +4,10 @@
 layout: default
 ---
 
+{% if page.top_img %}
+    <img src="{{page.top_img}}">
+{% endif %}
+
 {% include navbar.html %}
 
 {% if page.title%}
