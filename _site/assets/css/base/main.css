@@ -1,3 +1,8 @@
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
 header img {
   height: 60px;
 }
@@ -40,10 +45,7 @@ header * {
   background-color: #04AA6D;
   color: white;
 }
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
-}
+
 body {
   height: 250vh;
   background-image: url('../../images/background.jpg');
