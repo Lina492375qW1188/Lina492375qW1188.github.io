@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-<img src='/assets/images/st.png' width='200'>
+<center><img src='/assets/images/st.png' width='200'></center>
 
 
 I am a Physics PhD student at University of Maryland, College park. My research focus is mostly in soft condensed matter and its dynamics. You can find my published work in my CV or Google scholar. My previous work includes the following:
