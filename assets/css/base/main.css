@@ -21,9 +21,9 @@ header * {
 }
 /* Style the links inside the navigation bar */
 .topnav a {
+  float: left;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  float: left;
   color: #000;
   text-align: center;
   padding: 20px 30px;
@@ -41,7 +41,7 @@ header * {
   color: white;
 }
 /* Right-aligned section inside the top navigation */
-.topnav-right {
+.topnav-right a {
   float: right;
 }
 body {
