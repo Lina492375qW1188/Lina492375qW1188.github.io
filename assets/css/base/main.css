@@ -1,5 +1,5 @@
 header img {
-  height: 80px;
+  height: 60px;
 }
 header {
   background-color: #DDD;
@@ -7,26 +7,41 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
 }
 header * {
   display: inline;
 }
-ul {
-  margin-left: 280px;
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #DDD;
+  overflow: hidden;
 }
-a {
+/* Style the links inside the navigation bar */
+.topnav a {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  margin: 20px;
-  color: black;
+  margin-left: 70px;
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
 }
 body {
-  height: 125vh;
-  background-color: #DDD;
+  height: 150vh;
   background-image: url('../../images/background.jpg');
   background-size: cover;
   margin-top: 120px;
