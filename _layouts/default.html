@@ -7,9 +7,16 @@
 
 <body>
 
-	{% include navigation.html %}
+    <header>
 
-    {{ content }}
+        <img src="../assets/images/favicon.png">
+        
+        {% include navigation.html %}
 
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    
 </body>
 </html>
