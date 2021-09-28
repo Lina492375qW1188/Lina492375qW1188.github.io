@@ -40,7 +40,7 @@ header * {
   color: white;
 }
 /* Right-aligned section inside the top navigation */
-.topnav-right a {
+.topnav-right {
   float: right;
 }
 body {
