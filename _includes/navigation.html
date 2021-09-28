@@ -1,10 +1,17 @@
-<div class="topnav">
-  {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %} class="active" {% endif %}>{{ item.name }}</a>
-  {% endfor %}
-  <div class="topnav-right">
-    {% for item in site.data.navigation_r %}
-      <a href="{{ item.link }}" {% if page.url == item.link %} class="active" {% endif %}>{{ item.name }}</a>
-    {% endfor %}
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      {% for item in site.data.navigation %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ item.link }}" {% if page.url == item.link %} class="active" {% endif %}>{{ item.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
-</div>
+
+</nav>
