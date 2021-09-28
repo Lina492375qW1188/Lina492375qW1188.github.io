@@ -1,3 +1,11 @@
+.navbar {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  transition: all .5s ease-in-out;
+}
+.navbar-brand {
+  fontsize: 20px;
+}
 /* Style the links inside the navigation bar */
 .nav-link {
   float: right;
@@ -10,8 +18,8 @@
   font-size: 20px;
 }
 /* Change the color of links on hover */
-.nav-link > li > a:hover {
-  background-color: #fff;
+.nav-link:hover {
+  background-color: #000;
   color: #29fcaf;
   transition: all .5s ease; /* Turn on light when move cursor to it slowerly. */
 }
@@ -20,11 +28,3 @@
   background-color: #04AA6D;
   color: black;
 }
-
-
-
-
-/* Right-aligned section inside the top navigation */
-/* .topnav-right {
-  float: right;
-} */
