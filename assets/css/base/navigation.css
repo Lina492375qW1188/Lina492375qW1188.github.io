@@ -7,25 +7,13 @@
   fontsize: 20px;
   color: #29fcaf;
 }
-/* Style the links inside the navigation bar */
-.nav-link {
-  float: right;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+.navbar-dark .navbar-nav .nav-link {
+  float:right;
   color: #29fcaf;
-  text-align: center;
-  padding: 10px 30px;
-  text-decoration: none;
   font-size: 20px;
+  text-transform: uppercase;
 }
-/* Change the color of links on hover */
-.nav-link:hover {
-  background-color: #000;
-  color: #29fcaf;
-  transition: all .5s ease; /* Turn on light when move cursor to it slowerly. */
-}
-/* Add a color to the active/current link */
-.navbar-nav a.active {
-  background-color: #04AA6D;
-  color: black;
+.btn-navbar-toggler-style:hover {
+  background: #29fcaf;
+  transition: all .5s ease-in-out;
 }
