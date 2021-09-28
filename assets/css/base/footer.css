@@ -1,21 +1,15 @@
 .footer {
-  background: #061D25;
-  background-size: cover;
-  padding: 20px 20px;
+  padding: 20px 10px;
   position: absolute;
-  bottom: -1700px;
+  bottom: 400px;
   left: 0;
   right: 0;
 }
 .footer a {
-  color: #70726F;
-  font-size: 20px;
-  padding: 20px;
-  border-right: 1px solid #70726F;
+  color: #000;
+  font-size: 40px;
+  padding: 10px;
   transition: all .5s ease; /* Turn on light when move cursor to it slowerly. */
-}
-.footer a:first-child {
-  border-left: 1px solid #70726F;
 }
 .footer a:hover {
   color: white;
