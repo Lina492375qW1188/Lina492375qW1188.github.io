@@ -10,7 +10,8 @@
   padding: 10px;
   text-transform: uppercase;
 }
-.nav-item a:hover{
-  background: #000;
-  transition: all .3s ease-in-out;
+.nav-item a:hover {
+  color: rgb(252, 195, 239);
+  text-decoration: none;
+  transition: all .5s ease-in-out;
 }
