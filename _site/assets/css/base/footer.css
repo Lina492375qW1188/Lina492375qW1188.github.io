@@ -1,8 +1,11 @@
 .footer {
   background: #061D25;
   background-size: cover;
-  padding: 20px 0;
-  position: relative;
+  padding: 20px 20px;
+  position: absolute;
+    bottom: -1700px;
+    left: 0;
+    right: 0;
 }
 .footer a {
   color: #70726F;
