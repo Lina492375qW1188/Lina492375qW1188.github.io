@@ -1,5 +1,5 @@
 .footer {
-  
+
   padding: 10px 0px;
 }
 .footer a {
@@ -10,7 +10,7 @@
   text-align: center;
 }
 .footer a:hover {
-  color: white;
+  color: #29fcaf;
 }
 /* .fa-facebook {
 	color:#3b5998

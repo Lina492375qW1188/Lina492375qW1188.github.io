@@ -3,10 +3,6 @@
   font-weight: 800;
   transition: all .5s ease-in-out;
 }
-.navbar-brand {
-  fontsize: 50px;
-}
-
 .nav-item a {
   float:right;
   color: #29fcaf;
