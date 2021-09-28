@@ -1,15 +1,15 @@
-header img {
+/* header img {
     height: 60px;
-  }
-  header {
-    background-image: url('../../images/white_board.jpeg');
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 600px;
-  }
-  header * {
-    display: inline;
-  }
+  } */
+header {
+  background-image: url('../../images/white_board.jpeg');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+}
+header * {
+  display: inline;
+}
