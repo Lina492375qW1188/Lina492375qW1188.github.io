@@ -1,4 +1,6 @@
 
 @import "base/main.css";
+@import "base/header.css";
+@import "base/navigation.css";
 @import "base/content.css";
 @import "base/footer.css";

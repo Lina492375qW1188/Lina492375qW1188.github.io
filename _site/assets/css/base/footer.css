@@ -3,16 +3,16 @@
   background-size: cover;
   padding: 20px 20px;
   position: absolute;
-    bottom: -1700px;
-    left: 0;
-    right: 0;
+  bottom: -1700px;
+  left: 0;
+  right: 0;
 }
 .footer a {
   color: #70726F;
   font-size: 20px;
   padding: 20px;
   border-right: 1px solid #70726F;
-  transition: all .5s ease;
+  transition: all .5s ease; /* Turn on light when move cursor to it slowerly. */
 }
 .footer a:first-child {
   border-left: 1px solid #70726F;
