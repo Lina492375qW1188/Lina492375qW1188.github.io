@@ -2,14 +2,13 @@ header img {
   height: 60px;
 }
 header {
-  background-color: #DDD;
-  position: fixed;
+  background-image: url('../../images/white_board.jpeg');
+  background-size: cover;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
-  display: flex;
-  align-items: center;
+  height: 600px;
 }
 header * {
   display: inline;
@@ -26,7 +25,7 @@ header * {
   font-weight: 800;
   color: #000;
   text-align: center;
-  padding: 20px 30px;
+  padding: 19px 30px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -48,6 +47,6 @@ body {
   height: 250vh;
   background-image: url('../../images/background.jpg');
   background-size: cover;
-  margin-top: 120px;
+  margin-top: 600px;
   padding: 20px;
 }
