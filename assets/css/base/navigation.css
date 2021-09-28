@@ -4,16 +4,16 @@
   transition: all .5s ease-in-out;
 }
 .navbar-brand {
-  fontsize: 20px;
-  color: #29fcaf;
+  fontsize: 50px;
 }
-.navbar-dark .navbar-nav .nav-link {
+.nav-item a {
   float:right;
   color: #29fcaf;
   font-size: 20px;
+  padding: 10px;
   text-transform: uppercase;
 }
-.btn-navbar-toggler-style:hover {
-  background: #29fcaf;
-  transition: all .5s ease-in-out;
+.nav-item a:hover{
+  background: #000;
+  transition: all .3s ease-in-out;
 }
