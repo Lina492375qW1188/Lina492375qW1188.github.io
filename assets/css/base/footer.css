@@ -8,6 +8,10 @@
 .footer a:hover {
   color: #29fcaf;
 }
+.container {
+  margin-top: 20px;
+  border-top: 1px solid #000;
+}
 /* .fa-facebook {
 	color:#3b5998
 } 
