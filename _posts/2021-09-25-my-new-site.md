@@ -8,8 +8,6 @@ top_img: /assets/images/rolls.jpeg
 
 This is my first post!
 
- <img src='/assets/images/Photo.png' width='500'>
-
  Here's a useless table:
 
 | Number | Next number | Previous number |
