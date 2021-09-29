@@ -6,13 +6,4 @@ categories: general
 top_img: /assets/images/rolls.jpeg
 ---
 
-This is my first post!
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+Welcome! This is my first post! This is a practice of simple web design, which means that I didn't download and use any templates provided by github pages or other template websites. The above image is taken from one of my previous experiments.

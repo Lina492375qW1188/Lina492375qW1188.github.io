@@ -6,12 +6,17 @@
   overflow: hidden;
   margin-bottom: 10px;
 }
+.homepage_img{
+  width: 80%;
+  margin: auto;
+  display: block;
+}
 .project_img {
   width: 60%;
   margin: auto;
   display: block;
 }
-.homepage_img{
+.post_img {
   width: 80%;
   margin: auto;
   display: block;
