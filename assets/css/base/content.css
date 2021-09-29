@@ -6,3 +6,9 @@
   overflow: hidden;
   margin-bottom: 10px;
 }
+
+.project_img {
+  width: 500px;
+  height: auto;
+  margin-bottom:20px;
+}
