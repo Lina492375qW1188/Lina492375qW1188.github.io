@@ -18,3 +18,8 @@ title: Resources
 - [Including plasticity into angle_cosine interaction in LAMMPS](https://github.com/Lina492375qW1188/Plasticity-LAMMPS)
 
 - [Counting the number of transitions using commit time analysis](https://github.com/Lina492375qW1188/Count_transitions)
+
+
+Somehow Professor Tang hasn't updated his website, so you can still find me in his previous group photo. Those photos were taken at around 2012 at NSRRC.
+
+- [Link](http://w3.phys.nthu.edu.tw/~sjtang/)
