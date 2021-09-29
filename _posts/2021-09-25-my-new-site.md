@@ -8,7 +8,7 @@ top_img: /assets/images/rolls.jpeg
 
 This is my first post!
 
- Here's a useless table:
+Here's a useless table:
 
 | Number | Next number | Previous number |
 | :------ |:--- | :--- |
