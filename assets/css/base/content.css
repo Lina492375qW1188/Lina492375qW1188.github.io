@@ -16,10 +16,12 @@
   margin: auto;
   display: block;
 }
-.post_img {
-  width: 80%;
-  margin: auto;
-  display: block;
+@media (min-width: 800px) {
+  .post_img {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
 }
 .about_img {
   width: 30%;
