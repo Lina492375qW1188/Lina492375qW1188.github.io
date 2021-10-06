@@ -22,3 +22,7 @@ title: Projects
 * Scaling structure of a corpus.
 
 <center><img src='/assets/images/Scaling.jpg' class='project_img'></center>
+
+* Scaling structure of a corpus.
+
+<center><img src='/assets/images/sgoopd.jpg' class='project_img'></center>
