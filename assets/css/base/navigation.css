@@ -23,7 +23,7 @@
 }
 .nav-item a:hover {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 400;
   background-color: rgb(253, 251, 183);
   color: rgb(39, 172, 248);
   height: 60px;
