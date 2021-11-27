@@ -3,7 +3,7 @@ layout: default
 title: Resources
 ---
 
-## The scientific program I have coded
+## The scientific programs I have coded
 
 - [SGOOP-d](https://github.com/tiwarylab/SGOOP-d)
 
