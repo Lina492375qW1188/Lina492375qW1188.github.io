@@ -43,7 +43,5 @@ p {
 div {
   height:100%;
   float:left;
-}
-div#container {
-  height: 600px;
+  margin-right: 50px;
 }
