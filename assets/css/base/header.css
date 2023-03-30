@@ -1,11 +1,11 @@
 header {
-  background-image: none;
+  background-image: url('../../images/white_board.jpeg');
   background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 200px;
+  height: 350px;
 }
 header * {
   display: inline;
