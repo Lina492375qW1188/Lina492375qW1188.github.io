@@ -6,7 +6,15 @@
   overflow: hidden;
   margin-bottom: 10px;
 }
-
+@media (min-width: 800px) {
+  .ST_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+}
 .headshot_img{
   float:left;
   margin-right: 50px;
