@@ -21,7 +21,7 @@ I am currently working as a postdoc in Department of Chemical Engineering at Uni
 
 - Nucleation
 
-I have research experience in both designing experiments and developing computational methods. I am especially proud of the fact that some of my designs are frequently used by my previous and current colleagues, helping them produce lots of great papers. The most frequently used ones worth mentioning are the following:
+I have research experience in both designing experiments and developing computational methods. The apparaus I designed have been frequently used by my previous and current colleagues, helping them with their great work, indcluding:
 
 Fracturing machine:
 
