@@ -6,6 +6,7 @@ header {
   left: 0;
   right: 0;
   height: 350px;
+  z-index: 0;
 }
 header * {
   display: inline;
