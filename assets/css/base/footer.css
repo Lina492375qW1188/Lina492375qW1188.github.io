@@ -1,14 +1,5 @@
-footer {
-  background-image: url('../../images/white_board.jpeg');
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 350px;
-}
-footer * {
-  display: inline;
+footer-content {
+  background-image: url('../../images/background.jpg');
 }
 
 .footer a {
