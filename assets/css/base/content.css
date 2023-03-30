@@ -5,6 +5,7 @@
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 10px;
+  position: relative;
 }
 @media (min-width: 800px) {
 .homepage_img{
