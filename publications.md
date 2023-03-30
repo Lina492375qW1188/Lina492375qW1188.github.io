@@ -3,6 +3,8 @@ layout: default
 title: Publications
 ---
 
+For latest version of the publications: [Google scholar](https://scholar.google.com/citations?hl=en&user=e0BF_m8AAAAJ)
+
 * Electronic structure of alloy thin film on semiconductor substrate.
 
 <center><img src='/assets/images/Rashba.jpg' class='project_img'></center>
