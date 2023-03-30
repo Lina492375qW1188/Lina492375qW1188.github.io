@@ -1,6 +1,6 @@
-- name: Home
+- name: About Me
   link: /
-- name: About
-  link: /about.html
+- name: Photos
+  link: /photos.html
 - name: Publications
   link: /publications.html
