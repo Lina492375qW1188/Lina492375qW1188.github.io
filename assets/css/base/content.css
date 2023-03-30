@@ -5,8 +5,14 @@
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 10px;
+}
+
+.headshot_img{
+  float:left;
+  margin-right: 50px;
   /* position: relative; */
 }
+
 @media (min-width: 800px) {
 .homepage_img{
   width: 50%;
