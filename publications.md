@@ -8,7 +8,7 @@ All publications: [Google scholar](https://scholar.google.com/citations?hl=en&us
 
 "Driving and characterizing nucleation of urea and glycine polymorphs in water"  
 Ziyue Zou, Eric R Beyerle, <u>Sun-Ting Tsai</u>, and Pratyush Tiwary  
-Proceedings of the National Academy of Sciences <b>120</b> (7), e2216099120 (2023)
+Proc. Natl. Acad. Sci. <b>120</b> (7), e2216099120 (2023)
 
 "Path sampling of recurrent neural networks by incorporating known physics"  
 <u>Sun-Ting Tsai</u>, Eric Fields, Yijia Xu, En-Jui Kuo, and Pratyush Tiwary  
