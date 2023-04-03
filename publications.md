@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ---
 
-For all publications: [Google scholar](https://scholar.google.com/citations?hl=en&user=e0BF_m8AAAAJ)
+For detailed publications: [Google scholar](https://scholar.google.com/citations?hl=en&user=e0BF_m8AAAAJ)
 
 The following is a list of selected publications:
 
