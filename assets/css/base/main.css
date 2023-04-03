@@ -21,7 +21,7 @@ body {
   }
 }
 body_hp {
-  height: 50vh;
+  height: 80vh;
   /* background-image: url('../../images/background.jpg'); */
   background-size: cover;
   margin-top: 200px;
@@ -32,7 +32,7 @@ body_hp {
 }
 @media (max-width: 1000px) {
   body_hp {
-    height: 50vh;
+    height: 100vh;
     /* background-image: url('../../images/background.jpg'); */
     background-size: cover;
     margin-top: 200px;
