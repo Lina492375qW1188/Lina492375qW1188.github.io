@@ -20,6 +20,29 @@ body {
     text-decoration: none;
   }
 }
+body_hp {
+  height: 50vh;
+  /* background-image: url('../../images/background.jpg'); */
+  background-size: cover;
+  margin-top: 200px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 20px;
+  text-decoration: none;
+}
+@media (max-width: 1000px) {
+  body_hp {
+    height: 50vh;
+    /* background-image: url('../../images/background.jpg'); */
+    background-size: cover;
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    text-decoration: none;
+  }
+}
+
 h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
