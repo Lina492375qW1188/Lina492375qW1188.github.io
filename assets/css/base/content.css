@@ -14,7 +14,7 @@
 }
 
 @media (min-width: 800px) {
-.homepage_img{
+  .homepage_img{
   width: 50%;
   margin: auto;
   display: block;
