@@ -5,7 +5,9 @@ title: About
 
 <center><img src='/assets/images/Photo.png' class="homepage_img"></center>
 
-Besides developing computational methods, I also designed experiments. The apparaus I've designed had been used by my previous and current colleagues in their great work, indcluding:
+Experiments I've designed and worked with at NTHU
+<img src='/assets/images/Collection_experiments.png' class="about_img">
+
 
 Fracturing machine:  
 <img src='/assets/images/Fracturing_machine.jpg' class="about_img">
