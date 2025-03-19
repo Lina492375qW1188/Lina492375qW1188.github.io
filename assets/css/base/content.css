@@ -4,9 +4,8 @@
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
-  top: -20px
+  top: -100px
   margin-bottom: 10px;
-  position: relative;
 }
 
 .headshot_img{
