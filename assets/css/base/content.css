@@ -6,6 +6,7 @@
   overflow: hidden;
   top: -20px
   margin-bottom: 10px;
+  position: relative;
 }
 
 .headshot_img{
