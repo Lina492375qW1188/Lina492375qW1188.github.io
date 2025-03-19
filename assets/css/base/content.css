@@ -13,6 +13,7 @@
   /* position: relative; */
 }
 
+/* Media query for wide screens */
 @media (min-width: 800px) {
   .homepage_img{
   width: 50%;
@@ -25,6 +26,7 @@
   display: block;
   }
 }
+/* Media query for narrow screens */
 @media (max-width: 800px) {
   .homepage_img{
     width: 100%;
