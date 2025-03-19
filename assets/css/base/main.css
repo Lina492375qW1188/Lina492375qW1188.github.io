@@ -1,13 +1,25 @@
 body {
-  height: 100vh;
+  /* height: 100vh; */
   /* background-image: url('../../images/background.jpg'); */
   background-size: cover;
   margin-top: 200px;
-  margin-left: 300px;
-  margin-right: 300px;
+  /* margin-left: 300px; */
+  /* margin-right: 300px; */
   padding: 20px;
   text-decoration: none;
 }
+/* Media query for wide screens */
+@media (min-width: 1000px) {
+  body {
+    height: 100vh;
+    /* background-image: url('../../images/background.jpg'); */
+    background-size: cover;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-decoration: none;
+  }
+}
+/* Media query for narrow screens */
 @media (max-width: 1000px) {
   body {
     height: 200vh;
@@ -20,6 +32,7 @@ body {
     text-decoration: none;
   }
 }
+
 h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
