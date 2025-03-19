@@ -8,7 +8,7 @@ title: About
 Experiments I've designed and worked with at NTHU
 <img src='/assets/images/Collection_experiments.png' class="collection_img">
 
-The experiments inspired by these designs can be found in the following papers
+The experiments related to these designs can be found in the following papers
 
 - [Crumpling-origami transition for twisting cylindrical shells](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.101.053001)
 
