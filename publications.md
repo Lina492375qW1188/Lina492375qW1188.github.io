@@ -7,7 +7,7 @@ For detailed publications: [Google scholar](https://scholar.google.com/citations
 
 The following is a list of selected publications:
 
-<img src='/assets/images/Collection_papers.png' class="about_img">
+<img src='/assets/images/Collection_papers.png' class="homepage_img">
 
 [8]. "Driving and characterizing nucleation of urea and glycine polymorphs in water"  
 Ziyue Zou, Eric R Beyerle, <u>Sun-Ting Tsai</u>, and Pratyush Tiwary  
