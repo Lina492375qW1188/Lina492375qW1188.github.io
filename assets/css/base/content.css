@@ -4,7 +4,8 @@
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
-  top: -100px
+  top: -200px
+  left: 300px;
   margin-bottom: 10px;
   position: absolute;
 }
