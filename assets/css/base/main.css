@@ -1,35 +1,26 @@
+
 body {
   /* height: 100vh; */
   /* background-image: url('../../images/background.jpg'); */
   background-size: cover;
   margin-top: 200px;
-  /* margin-left: 300px; */
-  /* margin-right: 300px; */
   padding: 20px;
   text-decoration: none;
 }
 /* Media query for wide screens */
 @media (min-width: 1000px) {
   body {
-    height: 100vh;
-    /* background-image: url('../../images/background.jpg'); */
-/*     background-size: cover; */
-    margin-left: 100px;
-    margin-right: 100px;
-/*     text-decoration: none; */
+    height: 112vh;
+    margin-left: 168px;
+    margin-right: 168px;
   }
 }
 /* Media query for narrow screens */
 @media (max-width: 1000px) {
   body {
     height: 200vh;
-    /* background-image: url('../../images/background.jpg'); */
-/*     background-size: cover; */
-/*     margin-top: 200px; */
     margin-left: 20px;
     margin-right: 20px;
-/*     padding: 20px; */
-/*     text-decoration: none; */
   }
 }
 
