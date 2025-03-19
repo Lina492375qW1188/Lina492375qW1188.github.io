@@ -56,3 +56,6 @@ p {
   line-height: 1.25;
   text-align: justify;
 }
+li {
+    margin-bottom: 10px; /* Adjust the value to increase or decrease spacing */
+}
