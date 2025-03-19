@@ -14,8 +14,8 @@ body {
     height: 100vh;
     /* background-image: url('../../images/background.jpg'); */
     background-size: cover;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
     text-decoration: none;
   }
 }
