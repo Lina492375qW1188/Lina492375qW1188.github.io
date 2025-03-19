@@ -6,7 +6,7 @@ title: About
 <center><img src='/assets/images/Photo.png' class="homepage_img"></center>
 
 Experiments I've designed and worked with at NTHU
-<img src='/assets/images/Collection_experiments.png' class="about_img">
+<img src='/assets/images/Collection_experiments.png' class="homepage_img">
 
 The experiments inspired by these designs can be found in the following papers
 
