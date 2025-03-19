@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ---
 
-<img src='/assets/images/Collection_papers.png' class="homepage_img">
+<img src='/assets/images/Collection_papers.png' class="collection_img">
 
 For detailed publications: [Google scholar](https://scholar.google.com/citations?hl=en&user=e0BF_m8AAAAJ)
 
