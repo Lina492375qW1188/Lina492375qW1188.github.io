@@ -1,4 +1,4 @@
-<!--default.html-->
+<!-- Homepage shell with the same navigation and footer as standard pages. -->
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -9,28 +9,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Home</title>
-    
-    <!-- The following three load Bootstrap -->
+
+    <!-- Icon libraries used across navigation, contact links, and the footer. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+    <!-- Bootstrap provides the responsive navigation layout and toggler behavior. -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- Put our own customize css AFTER bootstrap allows us to override bootstrap default stylesheet. -->
+    <!-- Site styles load after Bootstrap so custom rules can refine defaults. -->
     <link rel="stylesheet" href="/assets/css/theme_ST.css" type="text/css">
 
-    <!-- Add favicon -->
+    <!-- Browser tab icon. -->
     <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 
 </head>
 
 
-<body class="d-flex flex-column min-vh-250">
+<body class="d-flex flex-column min-vh-100">
 
     <header>
         <nav class="navbar navbar-expand-md fixed-top navbar-dark">
   
-  <a class="navbar-brand smooth-scroll" style="color:#4cfaba; font-size:25px; font-weight:800;" href="/about.html">Sun-Ting Tsai</a>
+  <a class="navbar-brand smooth-scroll" href="/index.html">Sun-Ting Tsai</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -40,56 +45,79 @@
     <ul class="navbar-nav ml-auto">
       
         <li class="nav-item">
-          <a href="/"  class="active" >Home</a>
+          <a href="/"  class="active" >About Me</a>
         </li>
       
         <li class="nav-item">
-          <a href="/about.html" >About</a>
+          <a href="/photos.html" >Photos</a>
         </li>
       
         <li class="nav-item">
-          <a href="/blog.html" >Blog</a>
-        </li>
-      
-        <li class="nav-item">
-          <a href="/projects.html" >Projects</a>
-        </li>
-      
-        <li class="nav-item">
-          <a href="/resources.html" >Resources</a>
+          <a href="/publications.html" >Publications</a>
         </li>
       
     </ul>
   </div>
 
 </nav>
+
     </header>
 
-    <main>
-        <center><h1>Welcome to my personal webpage</h1></center>
+    <main class="site-content home-content">
+        <section class="profile-hero">
+    <img src="/assets/images/st.png" class="ST_img" alt="Sun-Ting Tsai portrait">
+    <div class="profile-intro">
+        <p class="eyebrow">Postdoctoral Research Fellow</p>
+        <h1>Sun-Ting Tsai</h1>
+        <p class="affiliation">Department of Chemical Engineering, University of Michigan, Ann Arbor</p>
+        <p>
+            I am a computational physicist studying machine learning, statistical mechanics, and molecular dynamics in soft condensed matter.
+            A detailed list of published work is available in my <a href="/CV3.pdf">CV</a>.
+        </p>
+    </div>
+</section>
 
-<h3>This webpage is made by jekyll and normal css, aided by bootstrap for some cross-plateform features.</h3>
+<section class="info-grid">
+    <div class="info-section">
+        <h2>Contact <i class="fas fa-coffee" aria-hidden="true"></i></h2>
+        <ul class="icon-list">
+            <li><i class="fas fa-envelope" aria-hidden="true"></i><span>suntingt@umich.edu</span></li>
+            <li><i class="fas fa-location-dot" aria-hidden="true"></i><span>NCRC-B10 G034, 2800 Plymouth Road, Ann Arbor, MI 48109-2800</span></li>
+        </ul>
+    </div>
 
-<center><img src='/assets/images/Photo.png' class="homepage_img"></center>
+    <div class="info-section">
+        <h2>Education <i class="fas fa-graduation-cap" aria-hidden="true"></i></h2>
+        <ul class="icon-list">
+            <li><i class="fas fa-university" aria-hidden="true"></i><span>Ph.D. in Physics, University of Maryland, College Park</span></li>
+            <li><i class="fas fa-university" aria-hidden="true"></i><span>M.S. in Physics, National Tsing Hua University</span></li>
+            <li><i class="fas fa-university" aria-hidden="true"></i><span>B.S. in Physics, National Tsing Hua University</span></li>
+        </ul>
+    </div>
+
+    <div class="info-section full-width">
+        <h2>Research Interests <i class="fas fa-paperclip" aria-hidden="true"></i></h2>
+        <ul class="icon-list">
+            <li><i class="fas fa-book" aria-hidden="true"></i><span>Machine learning</span></li>
+            <li><i class="fas fa-book" aria-hidden="true"></i><span>Equilibrium and non-equilibrium statistical mechanics</span></li>
+            <li><i class="fas fa-book" aria-hidden="true"></i><span>Molecular dynamics and Monte Carlo simulations of soft condensed matter</span></li>
+        </ul>
+    </div>
+</section>
 
     </main>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
-<footer class="mt-auto">
+    <footer class="mt-auto">
   <div class="container text-center">
     <div class="footer">
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.linkedin.com/in/sun-ting-tsai-2b7217110/"><i class="fa fa-linkedin"></i></a>
-      <a href="#"><i class="fa fa-skype"></i></a>
-      <a href="https://github.com/Lina492375qW1188"><i class="fa fa-github"></i></a>
-      <a href="https://scholar.google.com/citations?hl=en&user=e0BF_m8AAAAJ"><i class="ai ai-google-scholar-square"></i></a>
-      <a href="https://www.semanticscholar.org/author/Sun-Ting-Tsai/9940054"><i class="ai ai-semantic-scholar-square"></i></a>
+      <a href="https://www.linkedin.com/in/sun-ting-tsai-2b7217110/" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/Lina492375qW1188" aria-label="GitHub"><i class="fa fa-github"></i></a>
+      <a href="https://scholar.google.com/citations?hl=en&user=e0BF_m8AAAAJ" aria-label="Google Scholar"><i class="ai ai-google-scholar-square"></i></a>
+      <a href="https://www.semanticscholar.org/author/Sun-Ting-Tsai/9940054" aria-label="Semantic Scholar"><i class="ai ai-semantic-scholar-square"></i></a>
     </div>
   </div>
 </footer>
+
 
 </body>
 </html>

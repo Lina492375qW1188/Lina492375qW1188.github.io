@@ -1,12 +1,31 @@
 header {
   background-image: url('../../images/white_board.jpeg');
   background-size: cover;
+  background-position: center;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 350px;
+  height: 220px;
 }
 header * {
   display: inline;
+}
+
+header::after {
+  background: rgba(16, 42, 67, 0.36);
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+header .navbar {
+  z-index: 1;
+}
+
+@media (max-width: 800px) {
+  header {
+    height: 150px;
+  }
 }

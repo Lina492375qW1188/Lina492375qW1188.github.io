@@ -1,17 +1,17 @@
-<!--default.html-->
+<!-- Homepage shell with the same navigation and footer as standard pages. -->
 
 <!DOCTYPE html>
 <html lang="en-US">
 
     {% include head.html %}
 
-<body class="d-flex flex-column min-vh-250">
+<body class="d-flex flex-column min-vh-100">
 
     <header>
         {% include navigation.html %}
     </header>
 
-    <main>
+    <main class="site-content home-content">
         {{ content }}
     </main>
 

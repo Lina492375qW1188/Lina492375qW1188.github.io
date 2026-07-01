@@ -51,6 +51,7 @@ GEM
 
 PLATFORMS
   universal-darwin-18
+  universal-darwin-22
 
 DEPENDENCIES
   jekyll (~> 3.6.3)

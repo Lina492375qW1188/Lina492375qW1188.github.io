@@ -1,19 +1,20 @@
-/* customize images with class='ST_img' */
+/* Circular profile image on the homepage. */
 .ST_img{
-  width: 200px;
-  height: 200px;
+  width: 210px;
+  height: 210px;
   border-radius: 50%;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.18);
+  flex: 0 0 auto;
+  object-fit: cover;
   overflow: hidden;
-  margin-bottom: 10px;
 }
 
 .headshot_img{
   float:left;
   margin-right: 50px;
-  /* position: relative; */
 }
 
-/* Media query for wide screens */
+/* Keep research images readable without letting them dominate wide screens. */
 @media (min-width: 800px) {
   .homepage_img{
   width: 50%;
@@ -26,7 +27,8 @@
   display: block;
   }
 }
-/* Media query for narrow screens */
+
+/* Let images fill the available column on smaller devices. */
 @media (max-width: 800px) {
   .homepage_img{
     width: 100%;
@@ -46,19 +48,87 @@
   display: block;
 }
 
-<!--icons from Font Awesome solid, check https://fontawesome.com/search-->
-.fa-coffee {
-	color: #4E2A84
+.profile-hero {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
+  display: flex;
+  gap: 2.5rem;
+  padding: 2.4rem;
 }
-.fa-graduation-cap {
-	color: #4E2A84
+
+.profile-intro {
+  max-width: 660px;
+  width: 100%;
 }
-.fa-paperclip {
-	color: #4E2A84
+
+.eyebrow {
+  color: #116466;
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
 }
-.fa-university {
-	color: #4E2A84
+
+.affiliation {
+  color: #52606d;
+  font-size: 1.08rem;
+  font-weight: 600;
 }
-.fa-book {
-	color: #4E2A84
+
+.info-grid {
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 1.5rem;
+}
+
+.info-section {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.info-section.full-width {
+  grid-column: 1 / -1;
+}
+
+.icon-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-list li {
+  align-items: flex-start;
+  display: flex;
+  gap: 0.8rem;
+  line-height: 1.55;
+}
+
+.icon-list i,
+.info-section h2 i {
+  color: #5b2b82;
+}
+
+.icon-list i {
+  margin-top: 0.25rem;
+  min-width: 1.1rem;
+}
+
+@media (max-width: 800px) {
+  .profile-hero {
+    align-items: center;
+    flex-direction: column;
+    gap: 1.4rem;
+    padding: 1.5rem;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
 }
