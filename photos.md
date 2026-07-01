@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Photos
 ---
 
 <center><img src='/assets/images/Photo.png' class="homepage_img"></center>
@@ -12,8 +12,6 @@ The experiments related to these designs can be found in the following papers
 
 - [Crumpling-origami transition for twisting cylindrical shells](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.101.053001)
 
-- [Phase Diagram and Snap-Off Transition for a Twisted Party Balloon](https://arxiv.org/abs/2010.08739)
+- [Phase Diagram and Snap-Off Transition for Twisted Party Balloons](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.045004)
 
 - [Crumpling an elastoplastic thin sphere](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.103.012209)
-
-- [Crumpling-origami transition for twisting cylindrical shells](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.101.053001)
