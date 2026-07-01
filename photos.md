@@ -5,10 +5,10 @@ title: Photos
 
 <center><img src='/assets/images/Photo.png' class="homepage_img"></center>
 
-Experiments I've designed and worked with at NTHU
+Experiments Designed and Conducted at National Tsing Hua University
 <img src='/assets/images/Collection_experiments.png' class="collection_img">
 
-The experiments related to these designs can be found in the following papers
+Research related to or inspired from these experimental systems has been published in the following papers:
 
 - [Crumpling-origami transition for twisting cylindrical shells](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.101.053001)
 
